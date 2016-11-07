@@ -1,8 +1,6 @@
 # Cycler Architecture
 
-A cycler is an orbital trajectory where a body encounters two planets on a regular schedule without entering into the orbit of either planet. This periodic encouter without orbiting removes the need for regular maneuvers, reducing fuel costs and allowing an extremely large vehicle to efficiently travel on this trajectory. Cyclers have been studied for fifty years, with the most famous being the Aldrin Cycler between Earth and Mars. The Astrotel NIAC examined a mission where a cycler played a central role in the exploration of Mars, and included the Mission Architecture and Model Analysis (MAMA) trade study, which provided a means to chart the roadmap of technologies necessary for the Astrotel concept. 
 
-RHISE expands on this existing work in the cycler mission in two critical ways. One, it **examines** the extensive use of reconfigurability to allow large vehicles to be incrementally constructed over the course of several missions. Two, it **formalizes** the approach taken by the MAMA study, allowing the use of the existing and extensive work in network theory and analysis to examine the optimal placement of resources to allow the efficient transfer of humans between Earth and Mars. 
 
 ## Outline
 
@@ -11,8 +9,6 @@ RHISE expands on this existing work in the cycler mission in two critical ways. 
       1. These trajectories can vary in the frequency with which they encounter the planets, as well as the number and magnitude of maneuvers required to maintain the orbit
       2. Cyclers that require almost no fuel to maintain are known as "ballistic cyclers"
          1. Because ballistic cyclers require little fuel, an extremely large vehicle can travel on the orbit without excessive operating costs.
-   2. Our proposal is for an extremely large cycler vehicle to be incrementally constructed during the course of multiple missions from the excess mass that would normally be discarded during the course of these missions. 
-      1. One critical component of this plan is an understanding of the mass flow in a cycler architecture.
 2. Background
    1. History of Cycler orbits
       1. Originally introduced by Hollister in the mid sixties, the most famous of these trajectories is the Aldrin cycler, which are capable of ~6-month traversals between Earth and Mars in one direction, and 1.5 year traverseals in the other. 
@@ -28,12 +24,15 @@ RHISE expands on this existing work in the cycler mission in two critical ways. 
    3. Assumed the development and establishment of an entire infrastructure using a traditional approach
       1. Recent focus on the intermediate states of a cycler architecture
          1. e.g. Establishing cycler trajectories through V_{\inf} leveraging
-3. Modelling Mass Flow
-   1. Critical component of the RHISE mission is the effectiveness of reconfigurability
-      1. Reconfigurability enables a new way to explore space, where the discarded mass in each mission is intelligently reused to increase the capability and reduce the cost of subsequent missions.
-   2. A general framework for examining the logistics of an infrastructure, including its establishment, growth, and maintenance. 
+3. RHISE
+   1. One major objective of RHISE is to examine the logistics of incremental construction
+      1. Using the reconfigurability of digital cellular solids to incorporate 
 
 ## Prose
+
+A cycler is an orbital trajectory where a body encounters two planets on a regular schedule without entering into the orbit of either planet. This periodic encouter without orbiting removes the need for regular maneuvers, reducing fuel costs and allowing an extremely large vehicle to efficiently travel on this trajectory. Cyclers have been studied for fifty years, with the most famous being the Aldrin Cycler between Earth and Mars. The Astrotel NIAC examined a mission where a cycler played a central role in the exploration of Mars, and included the Mission Architecture and Model Analysis (MAMA) trade study, which provided a means to chart the roadmap of technologies necessary for the Astrotel concept. 
+
+RHISE expands on this existing work in the cycler mission in two critical ways. One, it **examines** the extensive use of reconfigurability to allow large vehicles to be incrementally constructed over the course of several missions. Two, it **formalizes** the approach taken by the MAMA study, allowing the use of the existing, extensive work in network theory and analysis to examine the optimal placement of resources to allow the efficient transfer of humans between Earth and Mars. 
 
 ### Definition
 
@@ -41,7 +40,7 @@ A cycler is an orbital trajectory where a body encounters two planets on a regul
 
 ### Background
 
-Originally introduced by Hollister in the mid sixties, the most famous of the cycler trajectories is the Aldrin cycler, which is capable of ~6-month traversals between Earth and Mars in one direction, and ~1.5 year traverseals in the other. These trajectories can be configured such that the ~6-month traversal is in either the Earth to Mars (Up-) or vice-versa (Down-) direction, and so typical cycler missions propose two vehicles, one on each of these orbits, in order to ensure minimal travel time in interplanetary space.
+Originally introduced by Hollister in the mid sixties, the most famous of the cycler trajectories is the Aldrin cycler, which is capable of ~6-month traversals between Earth and Mars in one direction, and ~1.5 year traverseals in the other. These trajectories can be configured such that the ~6-month traversal is in either the Earth to Mars (Up-) or Mars to Earth (Down-) direction, and so typical cycler missions propose two vehicles, one on each of these orbits, in order to ensure minimal travel time in interplanetary space.
 
 The Astrotel NIAC examined a transportation infrastructure involving cycler vehicles for travel between Earth and Mars. This architecture included several additional support vehicles, including freighters, spaceports, and taxis around multiple other bodies, including the Moon and Phobos. The work culminated in the Mission Architecture and Model Analysis (MAMA) trade study: a full exploration of the range of dependencies which support a such a mission architecture.
 
@@ -49,7 +48,9 @@ The MAMA trade study was designed to allow the identification of critical techno
 
 ### RHISE
 
-An important aspect of the MAMA trade study was the adoption of a relatively traditional approach for the construction of this interplanetary infrastructure, which resulted in the focus on a smaller cycler vehicle that transported a modest crew. 
+An important assumption of the MAMA trade study was the adoption of a relatively traditional approach for the construction of this interplanetary infrastructure, which resulted in a focus on a smaller cycler vehicle that transported a modest crew. 
+
+
 
 ![Cycler Optimization](./Media/cycler_opt.png)
 
